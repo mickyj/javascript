@@ -1,0 +1,31 @@
+%h2
+  I &lt;3 jQuery
+
+%h2
+  I &lt;33 jQuery
+
+%h2
+  I &lt;333 jQuery
+
+%div.one a
+%div.one b
+%div.one c
+
+%div#two d
+
+%div.one= text_field_tag 'name', nil, :id => 'name'
+%div.one= submit_tag 'get name', :id => 'btn'
+
+%section#colorchooser
+  %div.one= text_field_tag 'color', nil, :id => 'color'
+  %div.one= submit_tag 'get color', :id => 'btncolor'
+
+%section
+  %div.one= submit_tag 'hide', :id => 'hide'
+  %div.one= submit_tag 'show', :id => 'show'
+
+%section
+  %div.one= text_field_tag 'width'
+  %div.one= text_field_tag 'height'
+  %div.one= submit_tag 'calculate', :id => 'calc'
+  %div#area
